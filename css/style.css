@@ -50,6 +50,54 @@
 		position: relative;
 	}
 
+	.min-image{
+		position: absolute;
+		left: 0;
+		right: 0;
+		width: 100%;
+		bottom: 0;
+		top: -175px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.min-image-mob{
+		position: absolute;
+		left: 0;
+		right: 0;
+		width: 100%;
+		bottom: 0;
+		top: 0px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.min-image-mob_1{
+		left: -10px;
+		top: -45px;
+	}
+
+	.min-image-mob_2{
+		left: -25px;
+		top: -100px;
+	}
+
+	.min-image-mob_3{
+		left: 133px;
+		top: 25px;
+	}
+
+	.min-image-mob_4{
+		top: -57px;
+	}
+
+	.min-image_2{
+		left: 33px;
+		top: 210px;
+	}
+
 	h1.title{
 		padding-top: 142px;
 		text-align: center;
@@ -171,6 +219,7 @@
 
 	.rules{
 		padding-top: 300px;
+		position: relative;
 	}
 
 
@@ -225,16 +274,27 @@
 		color: #FFFFFF;
 	}
 
-
 	.contest__image{
 		margin-top: 56px;
+	}
+
+	.contest{
+		position: relative;
+	}
+
+	.min-image_3{
+		top: 140px;
 	}
 
 	.table{
 		background: #F3F4F6;
 		margin: 0;
+		position: relative;
 	}
-
+	.min-image_4{
+		top: -335px;
+		left: 25px;
+	}
 	.resume-table{
 		background-color: #FFFFFF;
 		width: 100%;
@@ -322,8 +382,6 @@
 		background-color: #F3F4F6;
 		padding-top: 120px;
 	}
-
-
 
 	.footer-text, .footer-text-link{
 		font-family: Montserrat;
